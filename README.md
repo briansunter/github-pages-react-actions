@@ -18,3 +18,4 @@ Github actions for deploying Create React App to GitHub Pages.
 
 ![Lighthouse](https://github.com/briansunter/github-pages-react-actions/workflows/Lighthouse/badge.svg)
 ![Unit Tests](https://github.com/briansunter/github-pages-react-actions/workflows/Run%20npm%20tests%20on%20PR/badge.svg)
+![Cypress Tests](https://github.com/briansunter/github-pages-react-actions/workflows/Cypress/badge.svg)
