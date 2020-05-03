@@ -1,7 +1,8 @@
 {
   "ci": {
     "collect": {
-      "staticDistDir": "./build"
+      "staticDistDir": "./build",
+      "url": "http://localhost/github-pages-react-actions/"
     },
     "assert": {
       "preset": "lighthouse:recommended",
