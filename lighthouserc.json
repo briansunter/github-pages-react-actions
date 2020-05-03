@@ -2,7 +2,8 @@
   "ci": {
     "collect": {
       "staticDistDir": "./build",
-      "url": "http://localhost/github-pages-react-actions/"
+      "url": "http://localhost/github-pages-react-actions/",
+      "isSinglePageApplication": true
     },
     "assert": {
       "preset": "lighthouse:recommended",
