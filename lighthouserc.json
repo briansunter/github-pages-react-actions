@@ -1,0 +1,13 @@
+{
+  "ci": {
+    "collect": {
+      "staticDistDir": "./build"
+    },
+    "assert": {
+      "preset": "lighthouse:recommended",
+      "assertions": {
+        "canonical": "off"
+      }
+    }
+  }
+}
