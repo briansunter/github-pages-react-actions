@@ -12,7 +12,6 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "serve:lhci": "NODE_ENV=production npm run start",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
