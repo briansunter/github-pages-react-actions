@@ -2,8 +2,7 @@
   "ci": {
     "collect": {
       "staticDistDir": "./build",
-      "isSinglePageApplication": true,
-      "startServerCommand": "npm run start"
+      "isSinglePageApplication": true
     },
     "assert": {
       "preset": "lighthouse:recommended",

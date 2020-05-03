@@ -19,3 +19,5 @@ jobs:
           configPath: "./lighthouserc.json"
           temporaryPublicStorage: true
           uploadArtifacts: true
+          urls: |
+            http://localhost/github-pages-react-actions
