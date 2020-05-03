@@ -1,7 +1,6 @@
 {
   "ci": {
     "collect": {
-      "startServerCommand": "npm run start",
       "staticDistDir": "./build",
       "url": ['http://localhost:3000/github-pages-react-actions']
     },
