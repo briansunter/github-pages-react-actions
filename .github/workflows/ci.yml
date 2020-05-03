@@ -12,7 +12,11 @@ jobs:
       with:
         persist-credentials: false
     - name: Get Repo Name
-      run:  echo ::set-env name=PUBLIC_URL::$(echo "$GITHUB_REPOSITORY" | awk -F / '{print $2}' | sed -e "s/:refs//")
+      run:  echo ::set-env name=REPO_NAME::$(echo "$GITHUB_REPOSITORY" | awk -F / '{print $2}' | sed -e "s/:refs//")
+      shell: bash
+
+    - name: Set Public URL
+      run: echo ::set-env name=PUBLIC_URL::$(echo "/$REPO_NAME")
       shell: bash
 
     - name: Install
