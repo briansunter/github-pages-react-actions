@@ -3,7 +3,8 @@ Github actions for deploying Create React App to GitHub Pages.
 
 ## Features
 * Run tests on PR
-* Runs Lighthouse tests on PR
+* Runs Lighthouse tests on PR with test artifacts
+* Runs Cypress tests with videos and screenshot test artifacts
 * Configues Github Pages
 * Deploys on push to master branch
 
